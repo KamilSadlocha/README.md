@@ -1,0 +1,132 @@
+.slick-slide {
+  margin: 27px;
+
+}
+
+.book-container, .fav-book-container{
+  margin-top: 8%;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  position: relative;
+ 
+}
+
+.book-container{
+  background: linear-gradient(to bottom, #4a4e69, #22223b);
+}
+
+.fav-book-container{
+  background: linear-gradient(to bottom, #9A8C98, #9a8c98);
+}
+
+.thumbnail {
+  height: 160px;
+  width: 100px;
+  object-fit: cover;
+  position: absolute;
+  left: 20px;
+  top: -25px;
+  border-radius: 25px;
+  border-color: #9a8c98;
+  border-width: 15px;
+  pointer-events: auto;
+  border: 4px solid #9a8c98;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  padding: 20px;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 5%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  margin-left: 20%;
+}
+
+.details p {
+  margin: 5px 0;
+  text-align: center;
+  color: #f2e9e4;
+}
+
+.book-container p:first-child, .fav-book-container p:first-child {
+  padding-top: 55%;
+  font-size: 100%;
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+.book-container p:nth-child(2), .fav-book-container p:nth-child(2) {
+  padding-top: 8%;
+  margin-top: 30px;
+  font-size: 100%;
+}
+
+.book-container p:last-child, .fav-book-container p:last-child {
+  font-size: 10px;
+  margin-top: 25px;
+}
+
+.fav,
+.basket {
+  height: 25px;
+  position: absolute;
+  bottom: 55px;
+  left: 35px;
+  margin-right: 25px;
+}
+
+.basket {
+  left: 85px;
+}
+.category{
+  margin-top: 7%;
+}
+.slick {
+  position: relative
+
+}
+/* .slick .priv_arrow {} */
+.slick-arrow.slick-prev::before{
+  position: absolute;
+  bottom: -10.5vw;
+  left: 38vw;
+  color:#C9ADA7;
+  width:50px;
+  height: 50px;
+  background: #4A4E69;
+  border-radius:  0% 50% 0%;
+  text-align: center;
+  line-height: 50px;
+  
+  cursor: pointer;
+}
+
+
+.slick-arrow.slick-next::before {
+  position: absolute;
+  bottom: -10.5vw;
+  left: -38vw;
+  color:#C9ADA7;
+  width:50px;
+  height: 50px;
+  background: #4A4E69;
+  border-radius: 50% 0% 50%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  
+}
+

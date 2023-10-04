@@ -1,0 +1,20 @@
+.send-sms-btn {
+    background-color: rgb(22, 168, 22);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    min-width: 8em;
+    min-height: 2em;
+    margin-top: 30px;
+    font-size: 17px;
+    color: white;
+}
+
+.phone-input {
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+p{
+    margin-bottom: 30px;
+}

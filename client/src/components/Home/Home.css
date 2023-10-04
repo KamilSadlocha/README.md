@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C9ADA7;
+  border-radius: 25px;
+  padding: 10px;
+  width: 400px;
+  margin: 40px;
+}
+
+.loupe {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.search-button {
+  background-color: #9A8C98;
+  border: none;
+  border-radius: 25px;
+  height: 35px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #F2E9E4;
+  border-color: #F2E9E4;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: transparent;
+}
+
+.book-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.table {
+ color:#9A8C98;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-title {
+  color:#9A8C98;
+  font-size: 24px;
+  text-align: center;
+  border: 3px solid black;
+
+  padding: 10px;
+}
+.smaller-font {
+  font-size: 16px;
+  color:#9A8C98;
+}
+.bigger-font {
+  font-size: 30px;
+}
+.user-col {
+  width: 25%;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  padding: 5px;
+  vertical-align: middle;
+}
+.books-col {
+  border-bottom: 3px solid black;
+  width: 50%;
+  padding: 5px;
+  vertical-align: middle;
+}
+.email-cell {
+  font-size: 14px;
+  border-bottom: 1px solid black;
+  border-right: px solid black;
+  padding: 5px;
+  vertical-align: middle;
+}
+.books-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+.books-list li {
+  margin-bottom: 5px;
+  border: 2px solid black;
+}
+.book-container {
+  display: flex;
+  align-items: center;
+}
+.book-container .smaller-font {
+  font-size: 14px;
+  flex: 1;
+}
+.return-button {
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.return-button:hover {
+  background-color: #3e8e41;
+}
